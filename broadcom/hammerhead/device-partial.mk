@@ -14,7 +14,7 @@
 
 # Broadcom blob(s) necessary for Hammerhead hardware
 PRODUCT_COPY_FILES := \
-    vendor/broadcom/hammerhead/proprietary/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd:broadcom \
-    vendor/broadcom/hammerhead/proprietary/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:broadcom \
-    vendor/broadcom/hammerhead/proprietary/bcm4335c0.hcd:system/vendor/firmware/bcm4335c0.hcd:broadcom \
+    vendor/lge/hammerhead/broadcom/hammerhead/proprietary/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd:broadcom \
+    vendor/lge/hammerhead/broadcom/hammerhead/proprietary/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:broadcom \
+    vendor/lge/hammerhead/broadcom/hammerhead/proprietary/bcm4335c0.hcd:system/vendor/firmware/bcm4335c0.hcd:broadcom \
 
